@@ -1,8 +1,16 @@
 # Bosh in a Box (Container)
 
-Build yourself a Bosh in a Box, gives you `bosh` and `bbl` cli tools inside a basic Ubuntu system.
+Build yourself a Bosh in a Box, gives you `bosh`, `bbl`, `om` and `pivnet` cli tools inside a basic Debian based container.
 
 # Latest and greatest, ignoring SHA validation
+
+Pull it!
+
+```bash
+docker pull voor/bosh-in-a-box
+```
+
+Or build it yourself.
 
 ```bash
 docker build .
